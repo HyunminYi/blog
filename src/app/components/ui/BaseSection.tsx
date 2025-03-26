@@ -1,7 +1,7 @@
 const BaseSection = ({children}) => {
   return (
       <>
-        <section className="flex flex-1">
+        <section className="flex w-full flex-1 p-5 bg-[#e7e6ed]">
           {children}
         </section>
       </>

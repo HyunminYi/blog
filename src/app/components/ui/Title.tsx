@@ -1,8 +1,6 @@
   const Title = () => {
   return (
-      <>
-        <h1>이현민 블로그</h1>
-      </>
+        <h1 className="w-fit text-2xl font-bold text-">Blog.</h1>
   );
 };
 

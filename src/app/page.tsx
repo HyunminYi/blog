@@ -1,11 +1,16 @@
+import ProfileIcon from '@/app/components/ui/Icons/ProfileIcon'
+import ProfileSection from '@/app/components/ProfileSection'
+import ProjectSection from '@/app/components/ProjectSection'
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+      <>
+    <div className="flex p-8 w-full gap-16 justify-center">
+      <main className="flex gap-8 row-start-2 justify-between w-full h-screen p-4">
+        <ProfileSection/>
+        <ProjectSection/>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-      </footer>
     </div>
+      </>
   );
 }
