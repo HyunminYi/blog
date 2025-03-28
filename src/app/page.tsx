@@ -5,8 +5,8 @@ import ProjectSection from '@/app/components/ProjectSection'
 export default function Home() {
   return (
       <>
-    <div className="flex p-8 w-full gap-16 justify-center">
-      <main className="flex gap-8 row-start-2 justify-between w-full h-screen p-4">
+    <div className="flex flex-1 p-8 flex-col h-full w-full gap-16 justify-center">
+      <main className="flex gap-8 justify-between w-full flex-1 p-4 bg-orange-500">
         <ProfileSection/>
         <ProjectSection/>
       </main>

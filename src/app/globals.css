@@ -17,6 +17,10 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height:100vh;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
 }
 
 @layer utilities {
@@ -24,3 +28,13 @@ body {
     text-wrap: balance;
   }
 }
+
+/*화면 영역 잡기*/
+.inverse {
+  background-color: #121212;
+  color: #efefef;
+  }
+.full-bleed {
+  box-shadow: 0 0 0 100vmax #121212;
+  clip-path: inset(0 -100vmax);
+  }

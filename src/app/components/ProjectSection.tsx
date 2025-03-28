@@ -5,7 +5,7 @@ const ProjectSection = () => {
   return (
       <>
         <BaseSection>
-          <div className="flex flex-1 flex-col">
+          <div className="flex flex-1 flex-col items-center overflow-y-scroll">
           <ProfileIcon width={ 148 } height={ 148 } />
           <h2>프로젝트 명</h2>
           <div>
